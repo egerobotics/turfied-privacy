@@ -36,7 +36,7 @@
 
   <section id="tr" lang="tr">
     <h2>Özet</h2>
-    <p>Turfied (paket adı: <code>com.turfied.game</code>) reklam göstermez, sizi izlemez ve geliştiricinin kendi sunucusuna hiçbir veri göndermez. Oyun hesap açmadan oynanabilir. İsteğe bağlı iki özellik Google ve Apple hizmetlerini kullanır: oyun hesabıyla giriş ve oyun içi satın alma.</p>
+    <p>Turfied (paket adı: <code>com.turfied.game</code>) reklam göstermez, sizi izlemez ve geliştiricinin kendi sunucusuna hiçbir veri göndermez; tek istisna, tarayıcıda oynanan web sürümündeki isteğe bağlı skor tablosudur (aşağıda açıklanmıştır). Oyun hesap açmadan oynanabilir. İsteğe bağlı iki özellik Google ve Apple hizmetlerini kullanır: oyun hesabıyla giriş ve oyun içi satın alma.</p>
 
     <h2 id="veri-silme">Verilerinizin silinmesi</h2>
     <p>Turfied (geliştirici: Emre Şensoy) ile ilgili verilerinizin silinmesini şu yollarla isteyebilirsiniz:</p>
@@ -48,9 +48,9 @@
     <p>Silinen veriler: oyuncu kimliğiyle ilişkili skor tablosu kaydı, başarımlar ve bulut oyun kaydı. Saklanan veriler: geliştirici herhangi bir veri saklamaz; satın alma kayıtları yasal yükümlülükler gereği Google Play ya da Apple tarafından kendi politikalarına göre saklanır.</p>
 
     <h2>Geliştiricinin topladığı veriler</h2>
-    <p>Geliştirici sizden ya da cihazınızdan kişisel veri toplamaz ve saklamaz. Özellikle:</p>
+    <p>Web sürümündeki isteğe bağlı skor tablosu dışında geliştirici sizden ya da cihazınızdan kişisel veri toplamaz ve saklamaz. Özellikle:</p>
     <ul>
-      <li>Ad, e-posta, telefon numarası istenmez.</li>
+      <li>Gerçek ad, e-posta, telefon numarası istenmez.</li>
       <li>Konum, kişiler, kamera, mikrofon, fotoğraflar ve dosyalara erişilmez; uygulama bu izinleri istemez.</li>
       <li>Reklam gösterilmez, reklam kimliği kullanılmaz.</li>
       <li>Analiz, izleme ya da kilitlenme raporu için üçüncü taraf yazılım (SDK) bulunmaz.</li>
@@ -64,6 +64,15 @@
       <li>Oyun kaydınız (en yüksek skor, kazanılan başarımlar, sahip olduğunuz ürünler ve seçili gemi) Google Play Games ya da iCloud hesabınızda saklanır; böylece cihaz değiştirdiğinizde geri gelir.</li>
     </ul>
     <p>Bu veriler Google ya da Apple tarafından kendi gizlilik politikalarına göre işlenir; geliştiricinin sunucusuna iletilmez. Giriş yapmazsanız bunların hiçbiri gönderilmez. Verilerinizi Play Games ya da Game Center ayarlarınızdan silebilirsiniz.</p>
+
+    <h2>Web sürümündeki skor tablosu (isteğe bağlı)</h2>
+    <p>Tarayıcıda oynanan sürümde (<code>egega.me/turfied</code>) oyun hesabı yoktur; bunun yerine geliştiricinin sunucusunda tutulan bir skor tablosu vardır. Tabloya katılmak için bir ad yazarsanız:</p>
+    <ul>
+      <li>Yazdığınız ad, en yüksek skorunuz ve ulaştığınız bölüm sunucuya gönderilir ve tabloda diğer oyunculara görünür. Gerçek adınızı yazmanız gerekmez.</li>
+      <li>Tarayıcınızda rastgele bir oyuncu kimliği oluşturulur ve skorla birlikte gönderilir; bu kimlik yalnızca kaydınızı güncellemek için kullanılır, tabloda gösterilmez.</li>
+      <li>Her web sitesinde olduğu gibi sunucunun bağlantı kayıtlarında IP adresiniz yer alır; skor tablosu kaydıyla birlikte saklanmaz.</li>
+    </ul>
+    <p>Ad yazmazsanız sunucuya skor gönderilmez. Kaydınızın silinmesini, tabloda görünen adınızı belirterek aşağıdaki e-posta adresinden isteyebilirsiniz. Mağazalardan kurulan uygulamalar bu tabloyu kullanmaz.</p>
 
     <h2>Oyun içi satın alma</h2>
     <p>Oyunda isteğe bağlı satın almalar vardır (tam sürüm, devam hakkı, güçlendirme, gemi görünümleri). Satın alma Google Play ya da Apple App Store üzerinden yapılır. Ödeme ve kart bilgileriniz yalnızca ilgili mağaza tarafından işlenir; geliştirici bunlara erişemez. Uygulama, satın aldığınız ürünleri size verebilmek için mağazadan yalnızca satın alma kaydını alır ve cihazınızda tutar.</p>
@@ -80,13 +89,51 @@
     <h2>Değişiklikler</h2>
     <p>Bu politika değişirse güncel sürümü bu sayfada yayınlanır ve yukarıdaki tarih güncellenir.</p>
 
+    <h2 id="gorseller">Görseller</h2>
+    <p>Bölümlerde açılan uzay fotoğrafları NASA'nın görsel arşivinden (images.nasa.gov) alınmıştır. NASA oyunu desteklemez ya da onaylamaz. Kaynaklar:</p>
+    <ul class="credits">
+      <li>Carina Nebula, Cosmic Cliffs (Webb) — NASA, ESA, CSA, STScI</li>
+      <li>Saturn (Cassini) — NASA/JPL/Space Science Institute</li>
+      <li>Lagoon Nebula (Hubble) — NASA, ESA</li>
+      <li>Earth, Eastern Hemisphere — NASA Goddard Space Flight Center</li>
+      <li>Crab Nebula (Hubble) — NASA/ESA/JPL/Arizona State Univ.</li>
+      <li>Jupiter&#x27;s Great Red Spot (Juno) — Enhanced image by Kevin M. Gill (CC BY) based on images provided courtesy of NASA/JPL-Caltech/SwRI/MSSS</li>
+      <li>Eagle Nebula, Pillars of Creation (Hubble) — NASA, ESA, and the Hubble Heritage Team (STScI/AURA)</li>
+      <li>Aurora seen from the International Space Station — NASA (ISS Expedition 44)</li>
+      <li>Helix Nebula (Spitzer) — NASA/JPL-Caltech/Univ. of Ariz.</li>
+      <li>Mars, Acidalia and Chryse Plains — NASA/JPL/MSSS</li>
+      <li>Andromeda Galaxy (Herschel, Planck and others) — ESA/NASA/JPL-Caltech/GBT/WSRT/IRAM/C. Clark (STScI)</li>
+      <li>Solar flares (Solar Dynamics Observatory) — NASA/SDO/Goddard/Wiessinger</li>
+      <li>Bubble Nebula (Hubble) — NASA, ESA, and the Hubble Heritage Team (STScI/AURA)</li>
+      <li>Saturn backlit by the Sun (Cassini) — NASA/JPL-Caltech/Space Science Institute</li>
+      <li>Whirlpool Galaxy (Hubble) — NASA, ESA, S. Beckwith (STScI), and the Hubble Heritage Team (STScI/AURA)</li>
+      <li>Pluto (New Horizons) — NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute</li>
+      <li>Tarantula Nebula (Spitzer) — NASA/JPL-Caltech/Cornell University and University of Leiden</li>
+      <li>City lights at night from the International Space Station — NASA (ISS Expedition 40)</li>
+      <li>Sombrero Galaxy (Spitzer and Hubble) — NASA/JPL-Caltech and The Hubble Heritage Team (STScI/AURA)</li>
+      <li>Neptune (Voyager 2) — NASA/JPL</li>
+      <li>N159 in the Large Magellanic Cloud (Hubble) — ESA/Hubble &amp; NASA (CC BY 4.0)</li>
+      <li>Cassiopeia A — NASA/JPL-Caltech/STScI/CXC/SAO</li>
+      <li>Jupiter (Cassini) — NASA/JPL/Space Science Institute</li>
+      <li>Horsehead Nebula in infrared (Spitzer) — NASA/JPL-Caltech</li>
+      <li>Westerlund 2 (Hubble) — NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team</li>
+      <li>Sunrise over Earth&#x27;s limb from the International Space Station — NASA (ISS Expedition 40)</li>
+      <li>Omega Nebula (Hubble) — NASA (Hubble Space Telescope; Marshall Space Flight Center image library)</li>
+      <li>Centre of the Milky Way (Spitzer) — NASA/JPL-Caltech</li>
+      <li>Mystic Mountain in the Carina Nebula (Hubble) — NASA/ESA/STScI</li>
+      <li>Antennae Galaxies (Chandra, Hubble, Spitzer) — NASA, ESA, SAO, CXC, JPL-Caltech, and STScI</li>
+      <li>Twin Jet Nebula (Hubble) — ESA/Hubble &amp; NASA, acknowledgement: Judy Schmidt (CC BY 4.0)</li>
+      <li>Centre of the Omega Nebula (Hubble) — NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M. Clampin (STScI), G. Hartig (STScI), the ACS Science Team, and ESA</li>
+      <li>Cygnus Loop Nebula (GALEX) — NASA/JPL-Caltech</li>
+    </ul>
+
     <h2>İletişim</h2>
     <p>Sorularınız ve veri silme talepleriniz için: <a href="mailto:emresensoy@gmail.com">emresensoy@gmail.com</a></p>
   </section>
 
   <section id="en" lang="en">
     <h2>Summary</h2>
-    <p>Turfied (package name: <code>com.turfied.game</code>) shows no ads, does not track you and sends no data to any server run by the developer. The game can be played without an account. Two optional features use Google and Apple services: signing in with a game account and in-app purchases.</p>
+    <p>Turfied (package name: <code>com.turfied.game</code>) shows no ads, does not track you and sends no data to any server run by the developer; the one exception is the optional leaderboard of the web version played in a browser (described below). The game can be played without an account. Two optional features use Google and Apple services: signing in with a game account and in-app purchases.</p>
 
     <h2 id="data-deletion">Deleting your data</h2>
     <p>You can ask for your data related to Turfied (developer: Emre Şensoy) to be deleted in these ways:</p>
@@ -98,9 +145,9 @@
     <p>Data that is deleted: the leaderboard entry, achievements and cloud save linked to your player ID. Data that is kept: the developer keeps no data; purchase records are retained by Google Play or Apple under their own policies as required by law.</p>
 
     <h2>Data collected by the developer</h2>
-    <p>The developer does not collect or store personal data from you or your device. In particular:</p>
+    <p>Apart from the optional leaderboard of the web version, the developer does not collect or store personal data from you or your device. In particular:</p>
     <ul>
-      <li>It does not ask for your name, email address or phone number.</li>
+      <li>It does not ask for your real name, email address or phone number.</li>
       <li>It does not access your location, contacts, camera, microphone, photos or files, and does not request these permissions.</li>
       <li>It shows no ads and does not use the advertising ID.</li>
       <li>It contains no third-party software (SDKs) for analytics, tracking or crash reporting.</li>
@@ -114,6 +161,15 @@
       <li>Your saved game (high score, earned achievements, owned items and selected ship) is stored in your Google Play Games or iCloud account so it returns when you change devices.</li>
     </ul>
     <p>This data is processed by Google or Apple under their own privacy policies and is not sent to the developer's servers. If you do not sign in, none of it is sent. You can delete this data from your Play Games or Game Center settings.</p>
+
+    <h2>Leaderboard of the web version (optional)</h2>
+    <p>The version played in a browser (<code>egega.me/turfied</code>) has no game account; instead it has a leaderboard kept on the developer's server. If you enter a name to join it:</p>
+    <ul>
+      <li>The name you typed, your best score and the level you reached are sent to the server and shown to other players on the board. It does not have to be your real name.</li>
+      <li>A random player ID is created in your browser and sent with the score; it is only used to update your entry and is not shown on the board.</li>
+      <li>As with any website, the server's connection logs contain your IP address; it is not stored with the leaderboard entry.</li>
+    </ul>
+    <p>If you do not enter a name, no score is sent to the server. You can ask for your entry to be deleted by writing to the email address below with the name shown on the board. The apps installed from the stores do not use this leaderboard.</p>
 
     <h2>In-app purchases</h2>
     <p>The game offers optional purchases (full version, continues, boosts, ship skins). Purchases are made through Google Play or the Apple App Store. Your payment and card details are processed only by the store; the developer has no access to them. To deliver what you bought, the app receives only the purchase record from the store and keeps it on your device.</p>
@@ -129,6 +185,44 @@
 
     <h2>Changes</h2>
     <p>If this policy changes, the current version will be published on this page and the date above will be updated.</p>
+
+    <h2 id="image-credits">Image credits</h2>
+    <p>The space photographs uncovered in the levels come from NASA's image library (images.nasa.gov). NASA does not sponsor or endorse the game. Sources:</p>
+    <ul class="credits">
+      <li>Carina Nebula, Cosmic Cliffs (Webb) — NASA, ESA, CSA, STScI</li>
+      <li>Saturn (Cassini) — NASA/JPL/Space Science Institute</li>
+      <li>Lagoon Nebula (Hubble) — NASA, ESA</li>
+      <li>Earth, Eastern Hemisphere — NASA Goddard Space Flight Center</li>
+      <li>Crab Nebula (Hubble) — NASA/ESA/JPL/Arizona State Univ.</li>
+      <li>Jupiter&#x27;s Great Red Spot (Juno) — Enhanced image by Kevin M. Gill (CC BY) based on images provided courtesy of NASA/JPL-Caltech/SwRI/MSSS</li>
+      <li>Eagle Nebula, Pillars of Creation (Hubble) — NASA, ESA, and the Hubble Heritage Team (STScI/AURA)</li>
+      <li>Aurora seen from the International Space Station — NASA (ISS Expedition 44)</li>
+      <li>Helix Nebula (Spitzer) — NASA/JPL-Caltech/Univ. of Ariz.</li>
+      <li>Mars, Acidalia and Chryse Plains — NASA/JPL/MSSS</li>
+      <li>Andromeda Galaxy (Herschel, Planck and others) — ESA/NASA/JPL-Caltech/GBT/WSRT/IRAM/C. Clark (STScI)</li>
+      <li>Solar flares (Solar Dynamics Observatory) — NASA/SDO/Goddard/Wiessinger</li>
+      <li>Bubble Nebula (Hubble) — NASA, ESA, and the Hubble Heritage Team (STScI/AURA)</li>
+      <li>Saturn backlit by the Sun (Cassini) — NASA/JPL-Caltech/Space Science Institute</li>
+      <li>Whirlpool Galaxy (Hubble) — NASA, ESA, S. Beckwith (STScI), and the Hubble Heritage Team (STScI/AURA)</li>
+      <li>Pluto (New Horizons) — NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute</li>
+      <li>Tarantula Nebula (Spitzer) — NASA/JPL-Caltech/Cornell University and University of Leiden</li>
+      <li>City lights at night from the International Space Station — NASA (ISS Expedition 40)</li>
+      <li>Sombrero Galaxy (Spitzer and Hubble) — NASA/JPL-Caltech and The Hubble Heritage Team (STScI/AURA)</li>
+      <li>Neptune (Voyager 2) — NASA/JPL</li>
+      <li>N159 in the Large Magellanic Cloud (Hubble) — ESA/Hubble &amp; NASA (CC BY 4.0)</li>
+      <li>Cassiopeia A — NASA/JPL-Caltech/STScI/CXC/SAO</li>
+      <li>Jupiter (Cassini) — NASA/JPL/Space Science Institute</li>
+      <li>Horsehead Nebula in infrared (Spitzer) — NASA/JPL-Caltech</li>
+      <li>Westerlund 2 (Hubble) — NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team</li>
+      <li>Sunrise over Earth&#x27;s limb from the International Space Station — NASA (ISS Expedition 40)</li>
+      <li>Omega Nebula (Hubble) — NASA (Hubble Space Telescope; Marshall Space Flight Center image library)</li>
+      <li>Centre of the Milky Way (Spitzer) — NASA/JPL-Caltech</li>
+      <li>Mystic Mountain in the Carina Nebula (Hubble) — NASA/ESA/STScI</li>
+      <li>Antennae Galaxies (Chandra, Hubble, Spitzer) — NASA, ESA, SAO, CXC, JPL-Caltech, and STScI</li>
+      <li>Twin Jet Nebula (Hubble) — ESA/Hubble &amp; NASA, acknowledgement: Judy Schmidt (CC BY 4.0)</li>
+      <li>Centre of the Omega Nebula (Hubble) — NASA, H. Ford (JHU), G. Illingworth (UCSC/LO), M. Clampin (STScI), G. Hartig (STScI), the ACS Science Team, and ESA</li>
+      <li>Cygnus Loop Nebula (GALEX) — NASA/JPL-Caltech</li>
+    </ul>
 
     <h2>Contact</h2>
     <p>Questions and data deletion requests: <a href="mailto:emresensoy@gmail.com">emresensoy@gmail.com</a></p>
